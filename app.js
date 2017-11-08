@@ -5,7 +5,7 @@ app.use(express.static(__dirname +"/public"));
 app.set("view engine","ejs");
 
 app.get("/",function(req,res){
-    res.render("RGBTest"); 
+    res.render("RGBColor"); 
 });
 
 app.listen(process.env.PORT,process.env.IP);
